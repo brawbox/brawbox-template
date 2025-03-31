@@ -584,6 +584,10 @@ figcaption {
   color: var(--base-color-neutral--white);
 }
 
+.form_input.is-white.text-body.placeholder {
+  background-color: var(--base-color-neutral--white);
+}
+
 .form_input.is-quantity {
   width: 5.4rem;
   min-height: 3.2rem;
@@ -2293,7 +2297,9 @@ figcaption {
   grid-row-gap: 1rem;
   background-color: #ffffff1a;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
   padding: 2.5rem;
   display: flex;
 }
@@ -3824,6 +3830,14 @@ figcaption {
   font-weight: 400;
 }
 
+.text-body.centred {
+  text-align: center;
+}
+
+.text-body.placeholder {
+  color: #a5a5a5;
+}
+
 .div-block-21 {
   display: flex;
 }
@@ -3899,6 +3913,54 @@ figcaption {
 .div-block-14 {
   width: auto;
   height: auto;
+}
+
+.container-footer-gradient {
+  background-color: #efe4da;
+  background-image: linear-gradient(#c7e5ea, #efe4da);
+  height: 50px;
+}
+
+.container-footer-image {
+  background-color: #efe4da;
+  background-image: url({{ 'footer-mainimage.png' | asset_url }});
+  background-position: 50% 0;
+  background-size: cover;
+  height: 440px;
+}
+
+.div-block-34 {
+  background-color: #fff;
+  border-radius: 9px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+}
+
+.div-block-35 {
+  grid-column-gap: 13px;
+  grid-row-gap: 13px;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  display: flex;
+}
+
+.container-footer-mail {
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  background-color: #efe4da;
+  background-image: linear-gradient(0deg, #e4f7f9, #efe4da);
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
@@ -5308,6 +5370,10 @@ figcaption {
     height: auto;
   }
 
+  .text-body.centred {
+    text-align: left;
+  }
+
   .div-block-21 {
     flex-flow: column;
   }
@@ -5325,6 +5391,21 @@ figcaption {
 
   .section_container-twin {
     height: auto;
+  }
+
+  .div-block-34 {
+    width: 100%;
+  }
+
+  .div-block-35 {
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .container-footer-mail {
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
@@ -5351,6 +5432,10 @@ figcaption {
 
 #w-node-_946c4dcd-3bf7-2b09-3073-715a0eb0baf2-cf39daf1 {
   justify-self: center;
+}
+
+#w-node-_5435dfae-dad8-7192-4e6c-be96dc1284c9-dc1284b9, #w-node-_5435dfae-dad8-7192-4e6c-be96dc1284ca-dc1284b9, #w-node-_5435dfae-dad8-7192-4e6c-be96dc1284d2-dc1284b9 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
 #w-node-_1f4a994c-7640-c194-e1f7-4193b5553f7f-b641c10b {
