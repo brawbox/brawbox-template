@@ -64,12 +64,24 @@
         "text_text": "This is space for some additional text that can span a few lines. omg this works",
         "url_link": "https://apple.com"
       }
+    },
+    "key_features_aWPcAP": {
+      "type": "key_features",
+      "settings": {
+        "text_title": "A taste of home",
+        "text_text": "Bringing the warmth of Scotland to your doorstep, our carefully curated gifts capture the essence of home. Whether you’re reminiscing about the rolling Highlands, the rich aroma of fresh-baked shortbread, or the comfort of a well-brewed cup of tea, each thoughtfully selected product offers a true taste of Scotland.",
+        "text_second_title": "Highest-quality ingredients",
+        "text_second_paragraph": "Authenticity begins with quality. That’s why we source only the finest ingredients, ensuring every product meets the highest standards of taste and craftsmanship. From hand-churned butter in our traditional biscuits to the purest Highland honey, each element is chosen with care to deliver a truly exceptional experience.",
+        "text_third_title": "Local Producers",
+        "text_third_paragraph": "We take pride in supporting Scotland’s talented artisans and small businesses. Every gift is a celebration of local heritage, crafted by skilled producers who share our passion for quality and tradition. You’re not only enjoying the best of Scotland but also sustaining the communities that make it so special."
+      }
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
     "liquify_hero",
+    "key_features_aWPcAP",
     "hero",
     "category",
     "links",
