@@ -34,13 +34,14 @@
       "footer_2": {
         "type": "footer_2",
         "settings": {
+          "image_braw_box_logo": "shopify://shop_images/core-logo-sequoia.png",
           "url_link": "",
           "url_link_2": "",
           "url_link_3": "",
           "url_link_4": "",
           "url_link_5": "",
           "url_link_6": "",
-          "text_copyright_text": "“Braw Box” is a registered trademark of Braw Box Limited. Copyright Braw Box 2025-26. All rights reserved. Individual third-party product names, logos and packaging are the registered trademarks of their respective owners. Used under license with permission from the original copyright holders."
+          "text_copyright_text": "arty product names, logos and packaging are the registered trademarks of their respective owners. Used under license with permission from the original copyright holders."
         }
       }
     },
