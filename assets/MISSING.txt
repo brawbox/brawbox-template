@@ -1,0 +1,6 @@
+The following files failed to download during site export. Please check them in the designer assets view (images) or dashboard (fonts).
+
+fonts/Gill-Sans-Bold.otf
+fonts/Gill-Sans-Light.otf
+fonts/Gill-Sans-Medium-Italic.otf
+fonts/Gill-Sans.otf
