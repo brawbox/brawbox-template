@@ -12,5 +12,12 @@
   "context": {
     "market": "gb"
   },
-  "sections": {}
+  "sections": {
+    "links": {
+      "settings": {
+        "text_headline": "SECTION TITLE HJERE"
+      },
+      "blocks": {}
+    }
+  }
 }
