@@ -26,9 +26,9 @@
       "type": "category",
       "settings": {
         "text_headline": "Short heading here",
-        "url_button_link": "",
+        "url_button_link": "shopify://collections/frontpage",
         "text_button_text": "All products",
-        "collection_collection": "",
+        "collection_collection": "frontpage",
         "collection_collection_limit": 6
       }
     },
