@@ -1,0 +1,13 @@
+<div class="container-footer-mail"><div class="div-block-35"></div><div class="footer_newsletter"><h2 class="heading-style-h2">
+{{ section.settings.text_newsletter_headline }}
+</h2>
+<div class="text-body centred">We're so confident you'll love our boxes that we want to offer you 10% off your first order, when you sign up to our mailing list for updates and new products.</div><div class="footer_form-block w-form">{% form 'customer', return_to: '/', class: 'footer_form' %}
+<div class="form_field-wrapper"><label for="email-3" class="form_hidden-label">Your E-Mail-Address</label><input class="form_input is-white text-body placeholder w-input" maxlength="256" name="contact[email]" data-name="Email 2" placeholder="Enter your email address here" type="email" id="email-2" required="">
+</div><div li-object="form.errors | default_errors" class="text-size-regular text-color-red">{{ form.errors | default_errors }}</div><div id="w-node-_5435dfae-dad8-7192-4e6c-be96dc1284c9-dc1284b9" class="hide w-embed"><input type="hidden" name="contact[accepts_marketing]" value="false">
+</div><label id="w-node-_5435dfae-dad8-7192-4e6c-be96dc1284ca-dc1284b9" class="w-checkbox form_checkbox" name="contact[accepts_marketing]"><input type="checkbox" name="Accepts-Marketing-2" id="Accepts-Marketing-2" data-name="Accepts Marketing 2" class="w-checkbox-input form_checkbox-icon">
+<span class="form_checkbox-label text-size-tiny text-body w-form-label" for="Accepts-Marketing-2">
+{{ section.settings.text_checkbox }}
+</span>
+</label><input type="submit" data-wait="" id="w-node-_5435dfae-dad8-7192-4e6c-be96dc1284d2-dc1284b9" class="button w-button" value="Subscribe to Newsletter">
+{% endform %}
+<div class="hide w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="hide w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div><div class="container-footer-image"></div><div class="container-footer-gradient"></div> {% schema %} {"tag":"div","name":"Email Signup","class":"container-sky","settings":[{"id":"text_newsletter_headline","type":"text","label":"Newsletter-Headline","default":"Sign Up &amp; Save 10% on your First Order"},{"id":"text_checkbox","type":"text","label":"Checkbox","default":"By subscribing you agree to with our <a href=\"#\"><span class=\"text-color-white text-style-link\">Privacy Policy<\/span><\/a> and provide consent to receive updates from our company."}],"presets":[{"name":"Email Signup","category":"Liquify","blocks":[]}]} {% endschema %}
