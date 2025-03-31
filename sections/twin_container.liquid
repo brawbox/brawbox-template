@@ -1,0 +1,9 @@
+<div class="div-block-21"><img class="div-block-20 image-different" src="{{ section.settings.image_image | img_url: 'master' }}" alt="{{ section.settings.image_image.alt }}">
+<div class="div-block-20-copy"><div class="div-block-48"><div class="div-block-14"><div class="text-subtitle white">
+{{ section.settings.text_text }}
+</div>
+</div><div class="div-block-14"></div></div><div class="div-block-22"><div class="text-body white">
+{{ section.settings.text_text }}
+</div>
+<a href="{{ section.settings.url_link }}" class="button-primary w-button"> Read More </a>
+</div></div></div> {% schema %} {"tag":"div","name":"Twin Container","class":"section_container-twin","settings":[{"id":"image_image","type":"image_picker","label":"Image"},{"id":"text_text","type":"text","label":"Text","default":"Why We're Different"},{"id":"url_link","type":"url","label":"Link"}],"presets":[{"name":"Twin Container","category":"Liquify","blocks":[]}]} {% endschema %}
