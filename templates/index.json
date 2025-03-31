@@ -29,15 +29,6 @@
         "text_third_paragraph": "We take pride in supporting Scotland’s talented artisans and small businesses. Every gift is a celebration of local heritage, crafted by skilled producers who share our passion for quality and tradition. You’re not only enjoying the best of Scotland but also sustaining the communities that make it so special."
       }
     },
-    "hero": {
-      "type": "hero",
-      "settings": {
-        "text_headline": "Short heading here",
-        "richtext_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>",
-        "url_button_link": "",
-        "text_button_text": "More Information"
-      }
-    },
     "category": {
       "type": "category",
       "settings": {
@@ -77,7 +68,8 @@
       "type": "twin_container",
       "settings": {
         "image_image": "shopify://shop_images/LaphroaigWhiskyScottishFudgeGiftHamper_jpg.webp",
-        "text_text": "This is space for some additional text that can span a few lines. omg this works",
+        "text_section_title": "Why We're Different",
+        "text_paragraph": "We started GLORIAH after our close friend experienced surgical menopause at just 25, and we quickly realized the market was flooded with outdated, clinical products. That’s when we knew we had to make a change! Inspired by the bold energy of the 70s, we’ve created a range of products designed to make women feel proud, empowered, and in control of their menopause journey.<br><br>The name ‘GLORIAH’ draws inspiration from two icons: Gloria Steinem, a leader of second-wave feminism, and Gloria Gaynor, whose anthem “I Will Survive” became a symbol of female empowerment. The added ‘H’ symbolizes pleasure—something we believe is central to women’s health and well-being. Our product names follow suit: ‘Liberation Oil’ pays homage to theWomen’s Liberation Movement, and ‘Soul Gel’ is a nod to Funk and Soul, which was deeply connected.",
         "url_link": "https://apple.com"
       }
     }
@@ -87,7 +79,6 @@
   "order": [
     "liquify_hero",
     "key_features_aWPcAP",
-    "hero",
     "category",
     "links",
     "content",
