@@ -60,6 +60,7 @@
     "twin_container_Qmw7Ey": {
       "type": "twin_container",
       "settings": {
+        "image_image": "shopify://shop_images/LaphroaigWhiskyScottishFudgeGiftHamper_jpg.webp",
         "text_text": "This is space for some additional text that can span a few lines. omg this works",
         "url_link": "https://apple.com"
       }
