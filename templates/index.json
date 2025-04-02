@@ -12,10 +12,9 @@
     "liquify_hero": {
       "type": "liquify_hero",
       "settings": {
-        "text_carousel_heading": "Testing live on site here that this is all editable.",
-        "text_description_text": "Braw Box is the taste of Scotland in the realest terms. We curate Scotland’s finest products, focusing on working with local producers and building boxes that are the ultimate gifting experience.",
+        "text_text": "The taste of Scotland, sent to your ddsdsdsdsdsoor. This text needs to be differentiated between subtitle and primary title. clearly safe area is not respected either",
         "url_button_link": "",
-        "text_button_text": "Read the Docs"
+        "text_button_text": "BUTTON TEXT GOES HERE"
       }
     },
     "key_features_aWPcAP": {
@@ -69,7 +68,7 @@
       "settings": {
         "image_image": "shopify://shop_images/LaphroaigWhiskyScottishFudgeGiftHamper_jpg.webp",
         "text_section_title": "Why We're Different",
-        "text_paragraph": "We started GLORIAH after our close friend experienced surgical menopause at just 25, and we quickly realized the market was flooded with outdated, clinical products. That’s when we knew we had to make a change! Inspired by the bold energy of the 70s, we’ve created a range of products designed to make women feel proud, empowered, and in control of their menopause journey.<br><br>The name ‘GLORIAH’ draws inspiration from two icons: Gloria Steinem, a leader of second-wave feminism, and Gloria Gaynor, whose anthem “I Will Survive” became a symbol of female empowerment. The added ‘H’ symbolizes pleasure—something we believe is central to women’s health and well-being. Our product names follow suit: ‘Liberation Oil’ pays homage to theWomen’s Liberation Movement, and ‘Soul Gel’ is a nod to Funk and Soul, which was deeply connected.",
+        "text_paragraph": "We started GLORIAH after our close friend experienced surgical menopause at just 25, and we quickly realized the market was flooded with outdated, clinical products. That’s when we knew we had to make a change! Inspired by the bold energy of the 70s, we’ve created a range of products designed to make women feel proud, empowered, and in control of their menopause journey.The name ‘GLORIAH’ draws inspiration from two icons: Gloria Steinem, a leader of second-wave feminism, and Gloria Gaynor, whose anthem “I Will Survive” became a symbol of female empowerment. The added ‘H’ symbolizes pleasure—something we believe is central to women’s health and well-being. Our product names follow suit: ‘Liberation Oil’ pays homage to theWomen’s Liberation Movement, and ‘Soul Gel’ is a nod to Funk and Soul, which was deeply connected.",
         "url_link": "https://apple.com"
       }
     }
