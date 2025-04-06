@@ -17,14 +17,14 @@
       "type": "default",
       "settings": {}
     },
-    "initial_text_boost_MgriPg": {
+    "initial_text_boost_X3gbpm": {
       "type": "initial_text_boost",
       "settings": {
-        "text_title_label": "Where our products come from",
-        "text_description": "Origin and taste for us are everything. We take producer responsibility seriously, and only work with manufacturing and supply partners that meet our highest quality and sustainability standards."
+        "text_title_label": "",
+        "text_description": ""
       }
     },
-    "initial_text_boost_2_fFarQi": {
+    "initial_text_boost_2_WghV8U": {
       "type": "initial_text_boost_2",
       "settings": {
         "text_title_label": "Producer Responsibility",
@@ -37,7 +37,7 @@
   "order": [
     "hero_zRNVAy",
     "default",
-    "initial_text_boost_MgriPg",
-    "initial_text_boost_2_fFarQi"
+    "initial_text_boost_X3gbpm",
+    "initial_text_boost_2_WghV8U"
   ]
 }
