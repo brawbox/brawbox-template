@@ -2665,6 +2665,10 @@ figcaption {
 }
 
 .filter_form-field-wrapper {
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 30%;
+  display: flex;
   position: relative;
 }
 
@@ -2696,10 +2700,14 @@ figcaption {
 .filter_filters-wrapper {
   z-index: 100;
   background-color: #fff;
-  width: 100%;
-  max-width: 100%;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: -64px;
+  margin-right: -64px;
+  padding-left: 64px;
+  padding-right: 64px;
   position: sticky;
-  top: 10vh;
+  top: 85px;
 }
 
 .filter_form_component {
@@ -2709,7 +2717,8 @@ figcaption {
 
 .filter_form {
   background-color: #0000;
-  min-width: 15rem;
+  min-width: 100%;
+  display: flex;
 }
 
 .filter_form-header {
@@ -2736,9 +2745,10 @@ figcaption {
 }
 
 .filter_scroll-wrapper {
+  min-width: 30%;
   margin-top: 1rem;
-  padding-bottom: 4rem;
-  padding-right: 1rem;
+  padding-bottom: 0;
+  padding-right: 0;
   overflow: scroll;
 }
 
@@ -2753,11 +2763,29 @@ figcaption {
 }
 
 .filter_filter-options {
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 5px;
+  display: flex;
   overflow: hidden;
 }
 
 .filter_list-wrapper {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0;
+}
+
+.filter_list {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.filter_item {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: hidden;
 }
 
 .filter_form_checkbox {
@@ -4211,6 +4239,14 @@ figcaption {
 
 .text-block-2 {
   font-family: Gill Sans, Arial, sans-serif;
+}
+
+.div-block-53 {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
