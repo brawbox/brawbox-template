@@ -9,19 +9,35 @@
  */
 {
   "sections": {
+    "hero_zRNVAy": {
+      "type": "hero",
+      "settings": {}
+    },
     "default": {
       "type": "default",
       "settings": {}
     },
-    "hero_zRNVAy": {
-      "type": "hero",
-      "settings": {}
+    "initial_text_boost_MgriPg": {
+      "type": "initial_text_boost",
+      "settings": {
+        "text_title_label": "Where our products come from",
+        "text_description": "Origin and taste for us are everything. We take producer responsibility seriously, and only work with manufacturing and supply partners that meet our highest quality and sustainability standards."
+      }
+    },
+    "initial_text_boost_2_fFarQi": {
+      "type": "initial_text_boost_2",
+      "settings": {
+        "text_title_label": "Producer Responsibility",
+        "text_description": "It’s just as important to us that what goes into the products we curate, comes out in great taste. We take producer responsibility seriously and continue to invest in local partners who share our ethical and environmental values."
+      }
     }
   },
   "layout": "page",
   "wrapper": "main.main-wrapper",
   "order": [
     "hero_zRNVAy",
-    "default"
+    "default",
+    "initial_text_boost_MgriPg",
+    "initial_text_boost_2_fFarQi"
   ]
 }
