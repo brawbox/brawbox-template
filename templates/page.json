@@ -9,6 +9,14 @@
  */
 {
   "sections": {
+    "promotional_bar_dGy3bH": {
+      "type": "promotional_bar",
+      "settings": {
+        "text_banner_text": "Introducing our new look and new name — Square1 is now Braw Box.",
+        "text_link_text": "‍Learn more",
+        "url_link": ""
+      }
+    },
     "hero_zRNVAy": {
       "type": "hero",
       "settings": {}
@@ -35,6 +43,7 @@
   "layout": "page",
   "wrapper": "main.main-wrapper",
   "order": [
+    "promotional_bar_dGy3bH",
     "hero_zRNVAy",
     "default",
     "initial_text_boost_X3gbpm",
