@@ -47,19 +47,20 @@
     "content": {
       "type": "content",
       "settings": {
-        "text_headline": "Short heading here",
+        "text_headline": "Blog Posts",
         "text_button_text": "All Articles",
         "url_button_link": "",
         "url_artikel_1_link": "",
         "text_artikel_1_titel": "Blog title heading will go here",
         "text_artikel_1_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-        "article_artikel_2": "",
+        "image_artikel_1_bild": "shopify://shop_images/abovefold-backtmock.png",
+        "article_artikel_2": "news/test-blog-post-goes-here",
         "url_artikel_2_link": "",
         "text_artikel_2_titel": "Blog title heading will go here",
         "text_artikel_2_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-        "article_artikel_3": "",
-        "url_artikel_3_link": "",
-        "text_artikel_3_titel": "Blog title heading will go here",
+        "article_artikel_3": "news/test-blog-post-goes-here",
+        "url_artikel_3_link": "shopify://blogs/news/test-blog-post-goes-here",
+        "text_artikel_3_titel": "Test Blog Post 3",
         "text_artikel_3_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
       }
     },
