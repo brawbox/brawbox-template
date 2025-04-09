@@ -9,10 +9,6 @@
  */
 {
   "sections": {
-    "hero_zRNVAy": {
-      "type": "hero",
-      "settings": {}
-    },
     "default": {
       "type": "default",
       "settings": {}
@@ -21,7 +17,6 @@
   "layout": "page",
   "wrapper": "main.main-wrapper",
   "order": [
-    "hero_zRNVAy",
     "default"
   ]
 }
