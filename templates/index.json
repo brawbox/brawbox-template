@@ -9,6 +9,14 @@
  */
 {
   "sections": {
+    "liquify_hero_gDnTF8": {
+      "type": "liquify_hero",
+      "settings": {
+        "text_text": "The taste of Scotland, sent to your door",
+        "url_button_link": "",
+        "text_button_text": "Read the Docs"
+      }
+    },
     "key_features_6n8egi": {
       "type": "key_features",
       "settings": {
@@ -35,6 +43,7 @@
     },
     "links": {
       "type": "links",
+      "disabled": true,
       "settings": {
         "text_headline": "Short heading here"
       }
@@ -62,7 +71,7 @@
     "twin_container_Qmw7Ey": {
       "type": "twin_container",
       "settings": {
-        "image_image": "shopify://shop_images/LaphroaigWhiskyScottishFudgeGiftHamper_jpg.webp",
+        "image_image": "shopify://shop_images/highlandcow-backp.png",
         "text_section_title": "Why We're Different",
         "text_paragraph": "We started GLORIAH after our close friend experienced surgical menopause at just 25, and we quickly realized the market was flooded with outdated, clinical products. That’s when we knew we had to make a change! Inspired by the bold energy of the 70s, we’ve created a range of products designed to make women feel proud, empowered, and in control of their menopause journey.The name ‘GLORIAH’ draws inspiration from two icons: Gloria Steinem, a leader of second-wave feminism, and Gloria Gaynor, whose anthem “I Will Survive” became a symbol of female empowerment. The added ‘H’ symbolizes pleasure—something we believe is central to women’s health and well-being. Our product names follow suit: ‘Liberation Oil’ pays homage to theWomen’s Liberation Movement, and ‘Soul Gel’ is a nod to Funk and Soul, which was deeply connected.",
         "url_link": "https://apple.com"
@@ -76,14 +85,6 @@
         "text_button_text": "All products",
         "collection_collection": "frontpage",
         "collection_collection_limit": 6
-      }
-    },
-    "liquify_hero_gDnTF8": {
-      "type": "liquify_hero",
-      "settings": {
-        "text_text": "The taste of Scotland, sent to your door",
-        "url_button_link": "",
-        "text_button_text": "Read the Docs"
       }
     }
   },
