@@ -12,11 +12,19 @@
     "default": {
       "type": "default",
       "settings": {}
+    },
+    "initial_text_boost_WdmYXN": {
+      "type": "initial_text_boost",
+      "settings": {
+        "text_title_label": "Say hello to the people behind Braw Box",
+        "text_description": "Details about the people who curate and select the products. Big focus on credentials, experience, considerations, favourite types of food and more. This can extend to up to four lines, but should be fairly focused."
+      }
     }
   },
   "layout": "page",
   "wrapper": "main.main-wrapper",
   "order": [
-    "default"
+    "default",
+    "initial_text_boost_WdmYXN"
   ]
 }
