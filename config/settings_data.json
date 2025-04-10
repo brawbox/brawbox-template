@@ -153,6 +153,12 @@
           "text_subtitle": "SOURCING &amp; CURATION",
           "text_description": "Details about the people who curate and select the products. Big focus on credentials, experience, considerations, favourite types of food and more. This can extend to up to four lines, but should be fairly focused."
         }
+      },
+      "page_hero": {
+        "type": "page_hero",
+        "settings": {
+          "image_background_image": "shopify://shop_images/ourstory-hero.png"
+        }
       }
     },
     "content_for_index": [],
