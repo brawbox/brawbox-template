@@ -4418,9 +4418,11 @@ figcaption {
 }
 
 .container-pagetitle {
-  background-image: url(https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg);
-  background-position: 0 0;
-  background-size: auto;
+  background-image: url({{ 'platzhalter.svg' | asset_url }});
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   flex-flow: column;
   justify-content: flex-end;
   align-items: flex-start;
