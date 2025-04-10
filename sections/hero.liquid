@@ -1,8 +1,2 @@
-<div class="container-pagetitle"><h1 class="heading-style-h1 white">
-{{ section.settings.text_hero_title }}
-</h1>
-<div class="text-body white">
-{{ section.settings.text_hero_description }}
-</div>
-<div class="global-padding"></div><a href="{{ section.settings.url_button_link }}" target="_blank" class="button w-button"> {{ section.settings.text_button_text }} </a>
-</div> {% schema %} {"tag":"div","name":"Hero","class":"div-block-51","settings":[{"id":"text_hero_title","type":"text","label":"Hero Title","default":"The taste of Scotland, sent to your door"},{"id":"text_hero_description","type":"text","label":"Hero Description","default":"Braw Box is the taste of Scotland in the realest terms. We curate Scotland\u2019s finest products, focusing on working with local producers and building boxes that are the ultimate gifting experience."},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Read the Docs"}],"presets":[{"name":"Hero","category":"Liquify","blocks":[]}]} {% endschema %}
+<img class="container-pagetitle" src="{{ section.settings.image_background_image | img_url: 'master' }}" alt="{{ section.settings.image_background_image.alt }}">
+ {% schema %} {"tag":"div","name":"Hero","class":"div-block-51","settings":[{"id":"image_background_image","type":"image_picker","label":"Background Image"},{"id":"text_hero_title","type":"text","label":"Hero Title","default":"The taste of Scotland, sent to your door"},{"id":"text_hero_description","type":"text","label":"Hero Description","default":"Braw Box is the taste of Scotland in the realest terms. We curate Scotland\u2019s finest products, focusing on working with local producers and building boxes that are the ultimate gifting experience."},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Read the Docs"}],"presets":[{"name":"Hero","category":"Liquify","blocks":[]}]} {% endschema %}
