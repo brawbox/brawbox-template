@@ -9,14 +9,6 @@
  */
 {
   "sections": {
-    "liquify_hero_meQGkB": {
-      "type": "liquify_hero",
-      "settings": {
-        "text_text": "The taste of Scotland, sent to your door",
-        "url_button_link": "",
-        "text_button_text": "Read the Docs"
-      }
-    },
     "key_features_6n8egi": {
       "type": "key_features",
       "settings": {
@@ -85,12 +77,20 @@
         "collection_collection": "frontpage",
         "collection_collection_limit": 6
       }
+    },
+    "liquify_hero_gDnTF8": {
+      "type": "liquify_hero",
+      "settings": {
+        "text_text": "The taste of Scotland, sent to your door",
+        "url_button_link": "",
+        "text_button_text": "Read the Docs"
+      }
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "liquify_hero_meQGkB",
+    "liquify_hero_gDnTF8",
     "key_features_6n8egi",
     "category",
     "links",
