@@ -20,10 +20,13 @@
     "key_features_aWPcAP": {
       "type": "key_features",
       "settings": {
+        "image_image_1": "shopify://shop_images/placeholder-intro-items-rf1-backp.png",
         "text_title": "A taste of home",
         "text_text": "Bringing the best of what Scotland’s larders have to your doorstep. Our carefully curated gifts capture the essence of home.From rich, buttery crumble of traditional shortbread to creamy, smoked perfection of Arran’s finest cheddar. Each thoughtfully selected product offers a true taste of Scotland, experience the flavours that make home, home!",
+        "image_image_2": "shopify://shop_images/placeholder-intro-items-rf1-backp.png",
         "text_second_title": "Award Winning Produce",
         "text_second_paragraph": "Authenticity begins with exceptional quality. That’s why we carefully source only the finest, award winning produce from Scotland’s most renowned artisan producers. From rich, handcrafted cheeses, traditional baked delights to hand selected gifts for inspired living, every product meets the highest standards of excellence. Our commitment to quality ensures that each gift is more than just a selection of delicious treats it is Scotland’s finest wrapped in every gift, creating memorable moments, beautifully presented for loved ones to enjoy.",
+        "image_image_3": "shopify://shop_images/placeholder-intro-items-rf1-backp.png",
         "text_third_title": "Local Producers, Showcasing Scotland",
         "text_third_paragraph": "We’re all about supporting and showcasing Scotland’s incredible artisan producers and small businesses. From traditional family bakers, master cheese and chutney makers to Charcutiers, we partner with skilled craftspeople who pour their passion into every product they produce. By choosing local, we’re not just delivering amazing flavours we are helping sustain the communities and traditions that make Scotland so special. Indulge in the best of Scotland and support the makers who keep its heart beating!"
       }
