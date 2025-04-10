@@ -1779,6 +1779,10 @@ figcaption {
   display: flex;
 }
 
+.nav_menu-dropdown.left-mobile-only {
+  display: none;
+}
+
 .nav_dropdown-toggle {
   align-items: center;
   padding: .5rem 2.5rem .5rem 1rem;
@@ -4236,6 +4240,10 @@ figcaption {
   display: flex;
 }
 
+.div-block.alerts {
+  background-color: #ffcce6;
+}
+
 .text-span {
   color: #000;
   margin-right: 12px;
@@ -4422,11 +4430,13 @@ figcaption {
 
 .div-block-55 {
   background-color: #283028;
+  flex-flow: column;
   justify-content: center;
-  align-items: flex-start;
-  height: 1850px;
-  padding-top: 64px;
+  align-items: center;
+  height: auto;
+  padding: 64px 128px;
   display: flex;
+  overflow: hidden;
 }
 
 .text-price {
@@ -4592,15 +4602,15 @@ figcaption {
 }
 
 .button-jump.max-width-full {
-  color: #000;
-  background-color: #dee1d7;
-  border-style: solid;
+  color: #fff;
+  background-color: #002e02;
+  border-style: none;
   border-color: #92aca7;
   transition: all .25s ease-in-out;
 }
 
 .button-jump.max-width-full:hover {
-  background-color: #b5cead;
+  background-color: #3d2f04;
 }
 
 .button-jump.is-link {
@@ -4643,6 +4653,61 @@ figcaption {
 
 .button-jump.mini {
   width: 250px;
+}
+
+.text-span-2 {
+  font-weight: 700;
+}
+
+.section_container-twin_right, .section_container-twin-left {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  background-color: #fff;
+  border-bottom: 1px solid #c9c9c9;
+  flex-flow: column;
+  height: 620px;
+  padding: 0;
+  display: flex;
+}
+
+.div-block-57 {
+  outline-offset: 0px;
+  background-color: #2f3f2c;
+  outline: 1px solid #0d180d;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 300px;
+  display: flex;
+}
+
+.div-block-57:hover {
+  background-color: #3b752f;
+}
+
+.div-block-58 {
+  display: flex;
+}
+
+.div-block-59 {
+  background-color: #282a20;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 128px;
+  display: flex;
+}
+
+.image {
+  min-width: 100%;
+}
+
+.div-block-60 {
+  grid-column-gap: 13px;
+  grid-row-gap: 13px;
+  flex-flow: column;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
@@ -4796,6 +4861,10 @@ figcaption {
     height: auto;
     font-size: 1.125rem;
     font-weight: 700;
+  }
+
+  .nav_menu-dropdown.left-mobile-only {
+    display: flex;
   }
 
   .nav_dropdown-toggle {
@@ -5286,6 +5355,14 @@ figcaption {
     padding-bottom: 32px;
   }
 
+  .div-block.alerts {
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
   .div-block-6 {
     width: 100%;
     min-width: auto;
@@ -5326,6 +5403,10 @@ figcaption {
 
   .button-customise.is-link.hide-tablet, .button-jump.is-link.hide-tablet {
     display: none;
+  }
+
+  .section_container-twin_right, .section_container-twin-left {
+    height: auto;
   }
 }
 
@@ -5435,6 +5516,7 @@ figcaption {
 
   .heading-style-h2 {
     font-size: 2rem;
+    line-height: 36px;
   }
 
   .padding-section-medium {
@@ -5802,6 +5884,11 @@ figcaption {
     flex-flow: column;
   }
 
+  .div-block, .div-block.alerts {
+    height: auto;
+    padding: 24px;
+  }
+
   .div-block-6 {
     width: 100%;
     min-width: 100%;
@@ -5987,6 +6074,10 @@ figcaption {
   .nav_menu.is-page-height-tablet {
     padding-left: 0%;
     padding-right: 0%;
+  }
+
+  .nav_menu-dropdown.left-mobile-only {
+    display: flex;
   }
 
   .nav_dropdown-toggle {
@@ -6318,6 +6409,10 @@ figcaption {
   .button-customise.is-secondary.is-icon, .button-jump.is-secondary.is-icon {
     padding: .5rem;
   }
+
+  .section_container-twin_right, .section_container-twin-left {
+    height: auto;
+  }
 }
 
 #w-node-efdfe76d-e495-5632-4546-bb1b588eec17-745fa37d {
@@ -6340,7 +6435,7 @@ figcaption {
   place-self: center start;
 }
 
-#w-node-fd87d5d8-8c6b-1eca-eca8-fdcf3f76b9b3-b641c10b, #w-node-_28220317-2301-9c22-bb7c-5e8ef64cce7a-b641c10b {
+#w-node-fd87d5d8-8c6b-1eca-eca8-fdcf3f76b9b3-b641c10b, #w-node-_28220317-2301-9c22-bb7c-5e8ef64cce7a-b641c10b, #w-node-fa1c624f-2c14-04c7-eb59-513d1a8f678b-b641c10b {
   justify-self: start;
 }
 
