@@ -12,6 +12,18 @@
     "sections": {
       "header": {
         "type": "header",
+        "blocks": {
+          "search_suggestion_GF6m3n": {
+            "type": "search-suggestion",
+            "settings": {
+              "url_link": "",
+              "text_text": "Tag"
+            }
+          }
+        },
+        "block_order": [
+          "search_suggestion_GF6m3n"
+        ],
         "settings": {
           "collection_search_bestseller": "frontpage",
           "collection_search_bestseller_limit": 4
@@ -98,6 +110,49 @@
       "map_section": {
         "type": "map_section",
         "settings": {}
+      },
+      "alerts_internal_only": {
+        "type": "alerts_internal_only",
+        "settings": {
+          "text_banner_text": "Important notice: This is a preproduction Shopify build. Not all functionality, components, text and images are live and functional. This is for evaluation purposes only. <span class=\"text-span-2\">v0.0.25</span>"
+        }
+      },
+      "twc_wb": {
+        "type": "twc_wb",
+        "settings": {
+          "text_section_title": "Why We're Different",
+          "text_paragraph": "We started GLORIAH after our close friend experienced surgical menopause at just 25, and we quickly realized the market was flooded with outdated, clinical products. That’s when we knew we had to make a change! Inspired by the bold energy of the 70s, we’ve created a range of products designed to make women feel proud, empowered, and in control of their menopause journey.<br><br>The name ‘GLORIAH’ draws inspiration from two icons: Gloria Steinem, a leader of second-wave feminism, and Gloria Gaynor, whose anthem “I Will Survive” became a symbol of female empowerment. The added ‘H’ symbolizes pleasure—something we believe is central to women’s health and well-being. Our product names follow suit: ‘Liberation Oil’ pays homage to theWomen’s Liberation Movement, and ‘Soul Gel’ is a nod to Funk and Soul, which was deeply connected.",
+          "url_link": ""
+        }
+      },
+      "twc_nb": {
+        "type": "twc_nb",
+        "settings": {
+          "text_section_title": "Good for People &amp; Planet",
+          "text_paragraph": "We started GLORIAH after our close friend experienced surgical menopause at just 25, and we quickly realized the market was flooded with outdated, clinical products. That’s when we knew we had to make a change! Inspired by the bold energy of the 70s, we’ve created a range of products designed to make women feel proud, empowered, and in control of their menopause journey.<br><br>The name ‘GLORIAH’ draws inspiration from two icons: Gloria Steinem, a leader of second-wave feminism, and Gloria Gaynor, whose anthem “I Will Survive” became a symbol of female empowerment. The added ‘H’ symbolizes pleasure—something we believe is central to women’s health and well-being. Our product names follow suit: ‘Liberation Oil’ pays homage to theWomen’s Liberation Movement, and ‘Soul Gel’ is a nod to Funk and Soul, which was deeply connected."
+        }
+      },
+      "twc_lp": {
+        "type": "twc_lp",
+        "settings": {
+          "text_section_title": "Meet Rebecca &amp; Amy",
+          "text_paragraph": "We started GLORIAH after our close friend experienced surgical menopause at just 25, and we quickly realized the market was flooded with outdated, clinical products. That’s when we knew we had to make a change! Inspired by the bold energy of the 70s, we’ve created a range of products designed to make women feel proud, empowered, and in control of their menopause journey.<br><br>The name ‘GLORIAH’ draws inspiration from two icons: Gloria Steinem, a leader of second-wave feminism, and Gloria Gaynor, whose anthem “I Will Survive” became a symbol of female empowerment. The added ‘H’ symbolizes pleasure—something we believe is central to women’s health and well-being. Our product names follow suit: ‘Liberation Oil’ pays homage to theWomen’s Liberation Movement, and ‘Soul Gel’ is a nod to Funk and Soul, which was deeply connected."
+        }
+      },
+      "twc_rp": {
+        "type": "twc_rp",
+        "settings": {
+          "text_section_title": "Meet Tracey",
+          "text_paragraph": "We started GLORIAH after our close friend experienced surgical menopause at just 25, and we quickly realized the market was flooded with outdated, clinical products. That’s when we knew we had to make a change! Inspired by the bold energy of the 70s, we’ve created a range of products designed to make women feel proud, empowered, and in control of their menopause journey.<br><br>The name ‘GLORIAH’ draws inspiration from two icons: Gloria Steinem, a leader of second-wave feminism, and Gloria Gaynor, whose anthem “I Will Survive” became a symbol of female empowerment. The added ‘H’ symbolizes pleasure—something we believe is central to women’s health and well-being. Our product names follow suit: ‘Liberation Oil’ pays homage to theWomen’s Liberation Movement, and ‘Soul Gel’ is a nod to Funk and Soul, which was deeply connected."
+        }
+      },
+      "curation_section": {
+        "type": "curation_section",
+        "settings": {
+          "text_title": "Stage 1",
+          "text_subtitle": "SOURCING &amp; CURATION",
+          "text_description": "Details about the people who curate and select the products. Big focus on credentials, experience, considerations, favourite types of food and more. This can extend to up to four lines, but should be fairly focused."
+        }
       }
     },
     "content_for_index": [],

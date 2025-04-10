@@ -9,14 +9,6 @@
  */
 {
   "sections": {
-    "liquify_hero_gDnTF8": {
-      "type": "liquify_hero",
-      "settings": {
-        "text_text": "The taste of Scotland, sent to your door",
-        "url_button_link": "",
-        "text_button_text": "Read the Docs"
-      }
-    },
     "key_features_6n8egi": {
       "type": "key_features",
       "settings": {
@@ -86,12 +78,21 @@
         "collection_collection": "frontpage",
         "collection_collection_limit": 6
       }
+    },
+    "hero_zD369J": {
+      "type": "hero",
+      "settings": {
+        "text_hero_title": "The taste of Scotland, sent to your door",
+        "text_hero_description": "Braw Box is the taste of Scotland in the realest terms. We curate Scotland’s finest products, focusing on working with local producers and building boxes that are the ultimate gifting experience.",
+        "url_button_link": "",
+        "text_button_text": "Read the Docs"
+      }
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "liquify_hero_gDnTF8",
+    "hero_zD369J",
     "key_features_6n8egi",
     "category",
     "links",
