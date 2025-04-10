@@ -9,14 +9,12 @@
  */
 {
   "sections": {
-    "hero_VpgEwb": {
-      "type": "hero",
+    "carousel_nzWgbr": {
+      "type": "carousel",
       "settings": {
-        "image_background_image": "shopify://shop_images/abovefold-backtmock.png",
-        "text_hero_title": "The taste of Scotland, sent to your door",
-        "text_hero_description": "Braw Box is the taste of Scotland in the realest terms. We curate Scotland’s finest products, focusing on working with local producers and building boxes that are the ultimate gifting experience.",
-        "url_button_link": "shopify://pages/our-story",
-        "text_button_text": "Read the Docs"
+        "image_image": "shopify://shop_images/abovefold-backtmock.png",
+        "text_main_title": "The taste of Scotland, sent to your door",
+        "text_text": "Braw Box is the taste of Scotland in the realest terms. We curate Scotland’s finest products, focusing on working with local producers and building boxes that are the ultimate gifting experience."
       }
     },
     "key_features_6n8egi": {
@@ -93,7 +91,7 @@
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "hero_VpgEwb",
+    "carousel_nzWgbr",
     "key_features_6n8egi",
     "category",
     "links",
