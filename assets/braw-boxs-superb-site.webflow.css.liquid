@@ -4779,6 +4779,64 @@ figcaption {
   color: #9cc49e;
 }
 
+.div-block-64 {
+  background-color: #0000;
+  width: 100vw;
+  height: 200px;
+  padding-left: 64px;
+  padding-right: 64px;
+  position: absolute;
+  bottom: 0;
+}
+
+.container-carousel {
+  background-color: #000;
+  width: 100vw;
+  height: 700px;
+}
+
+.div-block-30 {
+  background-image: none;
+  flex-flow: column;
+  height: 200px;
+  display: flex;
+}
+
+.div-block-5 {
+  background-color: #000;
+  background-image: url({{ 'abovefold-backtmock.png' | asset_url }});
+  background-position: 50%;
+  background-size: cover;
+  width: 100vw;
+  height: 800px;
+  margin-top: -200px;
+}
+
+.text-body-2 {
+  color: #000;
+  text-align: left;
+  font-family: Gill Sans, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  transition: all .3s ease-in-out;
+}
+
+.text-body-2.white {
+  color: #fff;
+  letter-spacing: .5px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.div-block-8 {
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+  flex-flow: column;
+  width: 720px;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .padding-medium {
     padding: 1.5rem;
@@ -6489,6 +6547,29 @@ figcaption {
 
   .div-block-21-copy, .div-block-21-copy-copy {
     flex-flow: column;
+  }
+
+  .div-block-64 {
+    width: 100%;
+    height: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+  }
+
+  .container-carousel {
+    height: 750px;
+  }
+
+  .div-block-5 {
+    height: 500px;
+    margin-top: -100px;
+  }
+
+  .div-block-8 {
+    grid-column-gap: 18px;
+    grid-row-gap: 18px;
+    width: 100%;
   }
 }
 

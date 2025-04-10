@@ -1,0 +1,8 @@
+<img class="div-block-5" src="{{ section.settings.image_image | img_url: 'master' }}" alt="{{ section.settings.image_image.alt }}">
+<div class="div-block-64"><div class="div-block-8"><div class="text-carousel-title white">
+{{ section.settings.text_main_title }}
+</div>
+<div class="text-body-2 white">
+{{ section.settings.text_text }}
+</div>
+</div></div> {% schema %} {"tag":"div","name":"carousel","class":"container-carousel","settings":[{"id":"image_image","type":"image_picker","label":"Image"},{"id":"text_main_title","type":"text","label":"Main Title","default":"The taste of Scotland, sent to your door"},{"id":"text_text","type":"text","label":"Text","default":"Braw Box is the taste of Scotland in the realest terms. We curate Scotland\u2019s finest products, focusing on working with local producers and building boxes that are the ultimate gifting experience."}],"presets":[{"name":"carousel","category":"Liquify","blocks":[]}]} {% endschema %}
