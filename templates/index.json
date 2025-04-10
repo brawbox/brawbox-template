@@ -9,6 +9,14 @@
  */
 {
   "sections": {
+    "liquify_hero_meQGkB": {
+      "type": "liquify_hero",
+      "settings": {
+        "text_text": "The taste of Scotland, sent to your door",
+        "url_button_link": "",
+        "text_button_text": "Read the Docs"
+      }
+    },
     "key_features_aWPcAP": {
       "type": "key_features",
       "settings": {
@@ -65,12 +73,14 @@
         "url_link": "https://apple.com"
       }
     },
-    "liquify_hero_meQGkB": {
-      "type": "liquify_hero",
+    "category_dcxhAY": {
+      "type": "category",
       "settings": {
-        "text_text": "The taste of Scotland, sent to your door",
+        "text_headline": "Short heading here",
         "url_button_link": "",
-        "text_button_text": "Read the Docs"
+        "text_button_text": "All products",
+        "collection_collection": "frontpage",
+        "collection_collection_limit": 6
       }
     }
   },
@@ -82,6 +92,7 @@
     "category",
     "links",
     "content",
-    "twin_container_Qmw7Ey"
+    "twin_container_Qmw7Ey",
+    "category_dcxhAY"
   ]
 }
