@@ -1,6 +1,47 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": [],
-    "layout": "page.producers",
-    "wrapper": "",
-    "order": []
+  "sections": {
+    "default": {
+      "type": "default",
+      "settings": {}
+    },
+    "initial_text_boost_X3gbpm": {
+      "type": "initial_text_boost",
+      "settings": {
+        "text_title_label": "test",
+        "text_description": "estb 1231rh39224r2"
+      }
+    },
+    "initial_text_boost_2_WghV8U": {
+      "type": "initial_text_boost_2",
+      "settings": {
+        "text_title_label": "Producer Responsibility",
+        "text_description": "It’s just as important to us that what goes into the products we curate, comes out in great taste. We take producer responsibility seriously and continue to invest in local partners who share our ethical and environmental values."
+      }
+    },
+    "twin_container_peopl_PGYzJM": {
+      "type": "twin_container_peopl",
+      "settings": {
+        "text_section_title": "Meet Tracey",
+        "text_paragraph": "We started GLORIAH after our close friend experienced surgical menopause at just 25, and we quickly realized the market was flooded with outdated, clinical products. That’s when we knew we had to make a change! Inspired by the bold energy of the 70s, we’ve created a range of products designed to make women feel proud, empowered, and in control of their menopause journey.The name ‘GLORIAH’ draws inspiration from two icons: Gloria Steinem, a leader of second-wave feminism, and Gloria Gaynor, whose anthem “I Will Survive” became a symbol of female empowerment. The added ‘H’ symbolizes pleasure—something we believe is central to women’s health and well-being. Our product names follow suit: ‘Liberation Oil’ pays homage to theWomen’s Liberation Movement, and ‘Soul Gel’ is a nod to Funk and Soul, which was deeply connected.",
+        "image_image": "shopify://shop_images/people-backp2.png"
+      }
+    }
+  },
+  "layout": "page",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "default",
+    "initial_text_boost_X3gbpm",
+    "initial_text_boost_2_WghV8U",
+    "twin_container_peopl_PGYzJM"
+  ]
 }
